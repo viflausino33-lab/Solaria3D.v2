@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Models and large AI files
+models/**/*.safetensors
+models/**/*.ckpt
+models/**/*.pth
+models/**/*.pt
+models/**/*.onnx
+models/**/*.bin
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Generated data
+examples/output/*
+*.ply
+*.obj
+*.stl
+*.glb
+*.gltf
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
