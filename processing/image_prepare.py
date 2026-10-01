@@ -400,4 +400,4 @@ def mask_to_numpy(mask: Image.Image) -> np.ndarray:
         dtype=np.float32,
     )
 
-    return array / 255.
+    return array / 255.0
